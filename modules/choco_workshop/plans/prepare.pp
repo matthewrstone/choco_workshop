@@ -1,4 +1,4 @@
-plan choco_workshop() {
+plan choco_workshop::prepare() {
   run_task('deploy_nexus_oss', nexus)
   run_plan('choco_workshop::license_choco', clients)
   run_task('choco_workshop::install_packages', clients)

@@ -1,0 +1,4 @@
+{
+    "description": "Deploys Nexus OSS on a Windows Server",
+    "parameters": { }
+}

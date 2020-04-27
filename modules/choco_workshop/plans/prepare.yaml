@@ -1,13 +1,13 @@
 steps:
-  # - name: deploy_nexus_oss
-  #   task: choco_workshop::deploy_nexus
-  #   targets: nexus
-  # - name: license_choco
-  #   plan: choco_workshop::license_choco
-  #   targets: clients
-  # - name: install_packages
-  #   task: choco_workshop::packages
-  #   targets: clients
+  - name: deploy_nexus_oss
+    task: choco_workshop::deploy_nexus
+    targets: nexus
+  - name: license_choco
+    plan: choco_workshop::license_choco
+    targets: clients
+  - name: install_packages
+    task: choco_workshop::packages
+    targets: clients
   - name: clone_repo
     task: choco_workshop::clone_repo
     targets: clients

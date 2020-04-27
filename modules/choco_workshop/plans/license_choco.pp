@@ -1,4 +1,4 @@
-plan choco_workshop::license_choco {
+plan choco_workshop::license_choco() {
   # run_command('choco upgrade choco -y', clients)
   run_command('New-Item "C:\\ProgramData\\chocolatey\\license\\" -Type Directory -Force', clients)
   run_command('New-Item "C:\\Temp" -Type Directory -Force', clients)

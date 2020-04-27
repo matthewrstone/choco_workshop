@@ -27,3 +27,4 @@
 /inventory.yaml
 .vscode/
 modules/choco_workshop/files/chocolatey*
+.resource_types/

@@ -1,4 +1,4 @@
-plan choco_workshop::sources($server) {
+plan choco_workshop::sources() {
   apply('localhost') {
     chocolateysource { 'internal' :
           ensure   => present,

@@ -1,7 +1,7 @@
 steps:
   - name: deploy_nexus_oss
     task: choco_workshop::deploy_nexus
-    targets: nexus
+    targets: clients
   - name: license_choco
     plan: choco_workshop::license_choco
     targets: clients
